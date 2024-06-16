@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes em CSS</title>
+  <style>
+    body {
+      font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+      /*
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, w, vh, %
+        16px geralmente = 1em
+        um site normal tem 16px
+        melhor usar "em" ou "px"
+        */
+      font-size: 1em;
+
+      /* lighter, normal, bold, bolder */
+    }
+
+    h1 {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: bolder;
+      font-size: 3em;
+      font-style: italic;
+
+      /* shorthand font 
+       
+      font-style -> font-weight -> font-size -> font-family 
+      TUDO SEM VÍRGULA*/
+      font: italic bolder 3em 'Work Sans', sans-serif;
+    }
+
+    h2 {
+      /* EXEMOPLO DE SHORTHANDS*/
+      font: bold 2em 'Work Sans';
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Trabalhando com fontes</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam obcaecati neque architecto, incidunt id
+    perferendis illo nemo molestias quo, quia ut velit perspiciatis. Similique, iure quo facilis ab ex recusandae!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cumque eaque ut aspernatur explicabo repellat
+    quos delectus sit exercitationem nemo temporibus quam commodi, mollitia ducimus illo porro corrupti in vitae.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aperiam pariatur nam assumenda soluta expedita totam
+    odit deleniti itaque nesciunt dolorum perspiciatis illo nobis non, aspernatur qui suscipit deserunt sequi.</p>
+  <h2>Subtitulo do exercicio</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, incidunt consequatur a, distinctio nam amet
+    ratione alias quidem autem impedit vero libero dolor voluptatum natus cupiditate vel debitis obcaecati harum?</p>
+
+
+</body>
+
+</html>
