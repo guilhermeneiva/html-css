@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
@@ -75,12 +76,12 @@ section.imagem>p {
 }
 
 section#imagem01 {
-  background: black url('imagens/background001.jpg') no-repeat right center fixed;
+  background: black url('../imagens/background001.jpg') no-repeat right center fixed;
   background-size: cover;
 }
 
 section#imagem02 {
-  background: black url('imagens/background002.jpg') no-repeat left center fixed;
+  background: black url('../imagens/background002.jpg') no-repeat left center fixed;
   background-size: cover;
 }
 
